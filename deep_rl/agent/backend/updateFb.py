@@ -7,7 +7,7 @@ import random
 import math
 cred = credentials.Certificate("./fb.json")
 default_app = firebase_admin.initialize_app(
-    cred, {'databaseURL': 'https://hypervisionp-default-rtdb.firebaseio.com/'})
+    cred, {'databaseURL': 'https://rlcrazytime-default-rtdb.firebaseio.com/'})
 
 
 def getPrediction():
